@@ -33,3 +33,10 @@ location for you.
 Then invoke the Extract method that will return a tuple of values with the subdomain, the
 root domain and the TLD domain.
  
+# Examples
+
+```
+
+var extractor = new NStack.TldExtract ();
+(var sub, var root, var tld) = extractor.Extract ("www.microsoft.com");
+```
