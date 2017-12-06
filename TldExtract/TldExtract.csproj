@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Miguel de Icaza</Authors>
+    <Owners>Miguel de Icaza</Owners>
+    <PackageProjectUrl>http://github.com/migueldeicaza/TldExtract</PackageProjectUrl>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Summary>TldExtract extracts the root domain, subdomain name, 
+and top level domain from a hostname using the Public Suffix List</Summary>
+    <Title>TldExtract</Title>
+    <Description>This .NET Standard 2 library and Command line tool extracts the root domain, subdomain name, 
+and top level domain from a URL, using the [the Public Suffix List](http://www.publicsuffix.org).
+</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
