@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
+    <PackageId>TldExtract</PackageId>
     <PackageVersion>1.0</PackageVersion>
     <Authors>Miguel de Icaza</Authors>
     <Owners>Miguel de Icaza</Owners>
@@ -17,6 +18,7 @@ and top level domain from a URL, using the [the Public Suffix List](http://www.p
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="NuGetizer" Version="0.4.11" />
   </ItemGroup>
+  
 </Project>
