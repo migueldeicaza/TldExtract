@@ -100,6 +100,9 @@ namespace NStack
 
 					t.matches [label] = m;
 				}
+				else if (i == 0) {
+					m.ValidTld = true;
+				}
 				t = m;
 			}
 		}
